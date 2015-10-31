@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
-  get 'home/auth'
+  get 'auth', to: 'home#auth'
+  get 'logout', to: 'home#logout'
   root 'home#index'
 end
