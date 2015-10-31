@@ -19,6 +19,8 @@ gem 'jquery-rails'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 
+gem 'oauth2'
+
 gem 'bootstrap-sass'
 gem 'bootstrap_form'
 gem 'puma', platforms: :ruby
