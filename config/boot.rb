@@ -10,7 +10,8 @@ if Rails.env == 'development'
     class Server
       alias_method :default_options_alias, :default_options
       def default_options
-        default_options_alias.merge! Host: '0.0.0.0'
+        default_options_alias.merge! Host: '0.0.0.0',
+                                     Port: 3001
       end
     end
   end
