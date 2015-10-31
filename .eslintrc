@@ -1,0 +1,38 @@
+{
+  "plugins": [
+    "angular"
+  ],
+  "env": {
+    "browser": true,
+    "jasmine": true
+  },
+  "rules": {
+    "no-console": 0,
+    "comma-dangle": [2, "never"],
+    "no-underscore-dangle": 0,
+    "space-in-parens": [2, "never"],
+    "space-before-blocks": [2, "always"],
+    "quotes": [2, "single", "avoid-escape"],
+    "no-use-before-define": [2, "nofunc"],
+    "camelcase": [2, {"properties": "always"}],
+    "semi": [2, "always"],
+    "no-mixed-spaces-and-tabs": [2, "smart-tabs"],
+    "no-extra-boolean-cast": 0,
+    "angular/ng_di": [2, "array"],
+    "angular/ng_window_service": 0,
+    "angular/ng_document_service": 0,
+    "key-spacing": [2, { "align": "value" }]
+  },
+  "globals": {
+    "_": true,
+    "angular": true,
+    "mohican": true,
+    "moment": true,
+    "require": true,
+    "browser": true,
+    "element": true,
+    "trace": true,
+    "trace_timestamp": true,
+    "by": true,
+  }
+}
