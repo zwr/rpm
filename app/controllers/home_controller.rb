@@ -42,6 +42,7 @@ class HomeController < ApplicationController
   end
 
   def logout
+    rum '/api/user/logout', method: :post
     session.clear
     redirect_to '/'
   end

@@ -1,3 +1,6 @@
 %h1 Home#index
 %p Find me in app/views/home/index.html.haml
 %p current_user's email is #{@current_user['email']}
+
+=form_tag '/logout' do
+  =submit_tag 'Logout'
